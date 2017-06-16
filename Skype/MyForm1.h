@@ -286,7 +286,7 @@ namespace Skype {
 			this->groupBox2->ResumeLayout(false);
 			this->ResumeLayout(false);
 			this->PerformLayout();
-
+			this->Icon = SystemIcons::Application;
 		}
 #pragma endregion
 	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
